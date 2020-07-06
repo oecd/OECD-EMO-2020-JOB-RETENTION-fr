@@ -19,13 +19,13 @@
     </head>
 
     <body>
-        <h1>Programmes de maintien dans l'emploi</h1><br>
+        <h1>Dispositifs de maintien dans l’emploi</h1><br>
         <h2>En % des salariés</h2>
         <img id="Share" src="img/share.svg" alt="share">
 
     <div class="flex-container" id="Downloadbanner">
-        <button class="toData active" id="WORLDbtn" onclick="drawChart(value)" value="Approved_applications">Demandes approuvées de programmes de maintien dans l'emploi</button>
-        <button class="toData" id="OECDbtn" onclick="drawChart(value)" value="Actual_use">Utilisation effective</button>
+        <button class="toData active" id="WORLDbtn" onclick="drawChart(value)" value="Approved_applications">Demandes approuvées au titre des dispositifs de maintien dans l’emploi</button>
+        <button class="toData" id="OECDbtn" onclick="drawChart(value)" value="Actual_use">Utilisation réelle</button>
     </div>
         <div id="GDPchart"></div>
         <div id="source" class="source">Source: <a class="source" href="https://doi.org/10.1787/b7e9e205-fr" target="_blank">OCDE (2020), Perspectives de l'emploi de l'OCDE 2020 : Crise du COVID-19 et sécurité des travailleurs, Éditions de
@@ -42,7 +42,7 @@
                 </div>
             </div>
         </div>
-        <div id="note" class="source">Note : Dans ce graphique, le terme "salariés" désigne uniquement les "travailleurs salariés", c'est-à-dire les salariés qui travaillent directement pour une entreprise et ne sont pas indépendants.</div>
+        <div id="note" class="source">Note : Dans ce graphique, le terme "salariés" désigne uniquement les "travailleurs salariés", c'est-à-dire les salariés qui travaillent directement pour une entreprise et ne sont pas indépendants.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Les données pour les États-Unis font référence à la participation aux dispositifs d'indemnisation à court terme.</div>
     </body>
     <script>
         var dataPerm=[];
